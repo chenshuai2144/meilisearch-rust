@@ -89,7 +89,6 @@ fn loop_insert(
 
 fn main() {
     block_on(async move {
-        println!("{}", to_pinyin(&"陈帅".to_string()))
         // Create a client (without sending any request so that can't fail)
         let client = Client::new("http://localhost:7700", "masterKey");
 
